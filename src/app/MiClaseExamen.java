@@ -12,9 +12,9 @@ public class MiClaseExamen {
             return String.valueOf(x);
         }
     }
-    public String array(int[] valores, int x){
+    public String array(int[] valores){
         for(int i = 0; i < valores.length;i++){
-            if(valores[i] == x && valores[i] == x && valores[i] == x)
+            if(valores[i] = 1 && valores[i] == 2 && valores[i] == 3)
                 return "1 2 Face";
         }
     }

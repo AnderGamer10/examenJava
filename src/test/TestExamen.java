@@ -57,7 +57,8 @@ public class TestExamen {
         // 1 - preracion del test
         MiClaseExamen calc = new MiClaseExamen();
         // 2 - Ejecutar lo que vamos a validar
-        String result = calc.array(1, 2, 3);
+        int[] array = {1, 2, 3};
+        String result = calc.array(array);
         // 3 - Aserciones
         assertEquals(6, result);
     }
