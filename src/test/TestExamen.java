@@ -60,7 +60,31 @@ public class TestExamen {
         int[] array = {1, 2, 3};
         String result = calc.array(array);
         // 3 - Aserciones
-        assertEquals(6, result);
+        assertEquals("1 2 Face ", result);
+    }
+    @Test
+    @DisplayName("Obtenemos “1 2 Face“ cuando pasamos un array con los valores {1,2,3}")
+    void testFaceBookFacebook219() {
+        // fail("Not yet implemented");
+        // 1 - preracion del test
+        MiClaseExamen calc = new MiClaseExamen();
+        // 2 - Ejecutar lo que vamos a validar
+        int[] array = {6, 10, 30, 2, 19};
+        String result = calc.array(array);
+        // 3 - Aserciones
+        assertEquals("Face Book Facebook 2 19", result);
+    }
+    @Test
+    @DisplayName("Obtenemos “1 2 Face“ cuando pasamos un array con los valores {1,2,3}")
+    void test46811() {
+        // fail("Not yet implemented");
+        // 1 - preracion del test
+        MiClaseExamen calc = new MiClaseExamen();
+        // 2 - Ejecutar lo que vamos a validar
+        int[] array = {4, 6, 8, 11};
+        String result = calc.array(array);
+        // 3 - Aserciones
+        assertEquals("4 6 8 11 ", result);
     }
 
 

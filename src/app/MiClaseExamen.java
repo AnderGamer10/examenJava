@@ -13,10 +13,14 @@ public class MiClaseExamen {
         }
     }
     public String array(int[] valores){
+        String s="";
         for(int i = 0; i < valores.length;i++){
-            if(valores[i] = 1 && valores[i] == 2 && valores[i] == 3)
-                return "1 2 Face";
+
+            s+=Multiplos(valores[i]) + " ";
+            // if(valores[i] = 1 && valores[i] == 2 && valores[i] == 3)
+            //     return "1 2 Face";
         }
+        return s;
     }
 
 }
