@@ -48,7 +48,7 @@ public class TestExamen {
         // 2 - Ejecutar lo que vamos a validar
         String result = calc.Multiplos(8);
         // 3 - Aserciones
-        assertEquals(8, result);
+        assertEquals("8", result);
     }
     @Test
     @DisplayName("Obtenemos “1 2 Face“ cuando pasamos un array con los valores {1,2,3}")
