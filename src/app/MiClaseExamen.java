@@ -2,15 +2,11 @@ package app;
 
 public class MiClaseExamen {
     public String Multiplos(int x) {
-        if (x % 3 == 0 && x % 5 == 0){
-            return "Facebook";
-        }else if (x % 3 == 0){
-            return "Face";
-        }else if (x % 5 == 0){
-            return "Book";
-        }else{
-            return String.valueOf(x);
-        }
+        if (x % 3 == 0 && x % 5 == 0) return "Facebook";
+        if (x % 3 == 0)return "Face";
+        if (x % 5 == 0) return "Book";
+        return String.valueOf(x);
+     
     }
     public String array(int[] valores){
         String s="";
